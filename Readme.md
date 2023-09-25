@@ -4,9 +4,9 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# WinForms Lookup - Display custom text if the lookup's value is not found in the dropdown list
+# WinForms Lookup - Display custom text if the lookup's value is not found in the drop-down list
 
-This example handles the [Properties.CustomDisplayText](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.Repository.RepositoryItem.CustomDisplayText) event to display custom text if the lookup's `EditValue` does not match any value in the dropdown list (the value do not exist in the data source).
+This example handles the [Properties.CustomDisplayText](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.Repository.RepositoryItem.CustomDisplayText) event to display custom text if the lookup's `EditValue` does not match any value in the drop-down list (the value does not exist in the data source).
 
 ```csharp
 const string NotFoundText = "???";
